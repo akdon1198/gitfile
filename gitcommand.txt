@@ -16,3 +16,5 @@ touch filename
 ##CLONE COMMANDS
 git clone url name/./empty
 git clone --single-branch -b <branch name> url name/./empty
+
+.gitignore
