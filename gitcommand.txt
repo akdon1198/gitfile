@@ -18,3 +18,9 @@ git clone url name/./empty
 git clone --single-branch -b <branch name> url name/./empty
 
 .gitignore
+
+##GIT REMOVAL
+git rm <filename> --> delete file no need to commit
+rm <filename> --> need to commit
+git rm -f <filename> --> if file is modified still deleted
+git rm --cached <filename> --> if file is modified than back to unmodified
