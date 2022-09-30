@@ -1,7 +1,15 @@
+##BASIC GIT COMMANDS
 git init
 git add .
 git commit -m ""
 git remote add origin "url"
 git branch -M main
 git push -u origin main
+git log
+git status
 finaly -> git push
+touch filename
+
+##CLONE COMMANDS
+git clone url name/./empty
+git clone --single-branch -b <branch name> url name/./empty
