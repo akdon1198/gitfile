@@ -27,3 +27,9 @@ rm <filename> --> need to commit
 git rm -f <filename> --> if file is modified still deleted
 git rm --cached <filename> --> if file is modified than back to unmodified
 git reset HEAD <filename>
+
+modified ->> unmodified
+git checkout -- <file> // it permanentaly delete code
+git stash // it keeps the code in local memory
+git stash pop // to pop from local memory
+git stash clear // to clear stash
