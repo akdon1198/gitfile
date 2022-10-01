@@ -11,6 +11,7 @@ while clone -> git remote add myorigin "url"
 git branch -M main
 git push -u origin main
 git log
+git log -no. of commit to see // git log -2 
 git status
 finaly -> git push
 touch filename
@@ -35,3 +36,11 @@ git stash pop // to pop from local memory
 git stash clear // to clear stash
 git restore --staged <filename> // back to unmodified
 git restore <filename> // going back to either last commit or last staged
+git config --global alias.<your cmd> <cmd name> // git config --global alias.stage 'add'
+
+##branch
+git branch "branch-name"
+git checkout "branch-name" // HEAD->branch-name
+git chekout -b "branch-name" // new branch make and HEAD->branch-name
+git merge "branch-name" // Union of Branch1 and Branch2
+git branch -d "branch-name" // to delete branch
