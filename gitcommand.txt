@@ -28,6 +28,7 @@ rm <filename> --> need to commit
 git rm -f <filename> --> if file is modified still deleted
 git rm --cached <filename> --> if file is modified than back to unmodified
 git reset HEAD <filename>
+git reset --soft/mixed/hard HEAD~
 
 modified ->> unmodified
 git checkout -- <file> // it permanentaly delete code
@@ -44,3 +45,25 @@ git checkout "branch-name" // HEAD->branch-name
 git chekout -b "branch-name" // new branch make and HEAD->branch-name
 git merge "branch-name" // Union of Branch1 and Branch2
 git branch -d "branch-name" // to delete branch
+
+git fetch origin // file pull to 
+git merge // to get in directory
+git pull
+
+git rebase "branch-name" // it merge exiting branch to "branch-name" linear
+open-source contribution
+fork
+clone
+change code
+pull request
+
+git revert commitid // it toggle state either restore or delete
+git revert -m 1 HEAD // for reverting branches
+
+git cherry-pick commitid // it takes that commit and add it in HEAD
+
+git reset HEAD@{1} // it unmerges
+git reflog
+
+git diff <filename> // to view changes in file
+git diff branch1..branch2 // to view changes in branch
