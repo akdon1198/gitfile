@@ -26,3 +26,4 @@ git rm <filename> --> delete file no need to commit
 rm <filename> --> need to commit
 git rm -f <filename> --> if file is modified still deleted
 git rm --cached <filename> --> if file is modified than back to unmodified
+git reset HEAD <filename>
