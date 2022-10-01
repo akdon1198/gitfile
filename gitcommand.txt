@@ -1,0 +1,35 @@
+##BASIC GIT COMMANDS
+git init
+git add .
+git commit -m ""
+
+<git commit --amend>
+git remote add origin "url"
+
+while clone -> git remote add myorigin "url"
+
+git branch -M main
+git push -u origin main
+git log
+git status
+finaly -> git push
+touch filename
+
+##CLONE COMMANDS
+git clone url name/./empty
+git clone --single-branch -b <branch name> url name/./empty
+
+.gitignore
+
+##GIT REMOVAL
+git rm <filename> --> delete file no need to commit
+rm <filename> --> need to commit
+git rm -f <filename> --> if file is modified still deleted
+git rm --cached <filename> --> if file is modified than back to unmodified
+git reset HEAD <filename>
+
+modified ->> unmodified
+git checkout -- <file> // it permanentaly delete code
+git stash // it keeps the code in local memory
+git stash pop // to pop from local memory
+git stash clear // to clear stash
