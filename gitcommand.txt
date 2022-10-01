@@ -33,3 +33,5 @@ git checkout -- <file> // it permanentaly delete code
 git stash // it keeps the code in local memory
 git stash pop // to pop from local memory
 git stash clear // to clear stash
+git restore --staged <filename> // back to unmodified
+git restore <filename> // going back to either last commit or last staged
