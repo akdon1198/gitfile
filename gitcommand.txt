@@ -2,7 +2,8 @@
 git init
 git add .
 git commit -m ""
-git commit --amend
+
+<git commit --amend>
 git remote add origin "url"
 
 while clone -> git remote add myorigin "url"
